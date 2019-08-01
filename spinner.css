@@ -1,0 +1,55 @@
+
+.o-container {
+  max-width: 32rem;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c-message {
+  padding: 0.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.c-message kbd {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.125em 0.5em;
+  border-bottom: 0.125em solid #b9b9b9;
+  line-height: 1;
+  border-radius: 0.25em;
+  background-color: #d3d3d3;
+}
+.c-spinner__input,
+.c-spinner__button {
+  border: 0;
+}
+.c-spinner {
+  /*display: inline-flex;*/
+  align-items: stretch;
+  min-height: 2em;
+  /*border: 1px solid;*/
+  font-size: inherit;
+}
+.c-spinner__input {
+  padding: 0 0.25em;
+}
+.c-spinner__button {
+  padding: 0.5em 1em;
+  transition: 0.2s;
+  background-color: #b8c2cc;
+  font-size: 1.2em;
+}
+.c-spinner__button--decrement:hover,
+.c-spinner__button--decrement:focus {
+  background-color: #1f9d55;
+}
+.c-spinner__button--increment:hover,
+.c-spinner__button--increment:focus {
+  background-color: #cc1f1a;
+}
+.c-spinner__button--increment{
+  margin-right: 0.31em;
+}
+
+

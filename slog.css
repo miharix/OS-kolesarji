@@ -1,0 +1,298 @@
+body{
+	background:#20509e;
+	/*onemogoči označevanje besedila - zaradi lažjega dela z tablicami*/
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */ 
+  font-size: 1.2em;
+}
+
+ .prekrsek input  {
+ 	width:2em;
+	font-size: 1.1em;
+ }
+  .pricnapaka input  {
+ 	width:2em;
+	font-size: 1.1em;
+ }
+   .ostnapaka input  {
+ 	width:2em;
+	font-size: 1.1em;
+	
+ }
+ 
+#naslov{
+	color:#f8e739;
+	font-style: italic;
+	text-align: center;
+	margin-bottom:1em;
+	position:absolute;
+	top:0.5em;
+	right:0.5em;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+#ResetShrani{
+	text-align: center;
+}
+#ResetShrani button{
+	background: #4b537f;
+	color: #f3edb5;
+	padding: 0.5em 1em;
+	/*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+	border-radius: 5px;
+	margin-left:4em;
+	margin-right:4em;
+	margin-bottom:0.3em;
+	font-size: 0.9em;
+}
+#tekmovalec{
+	color:  #8d8d8d;
+	text-align: center;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+#tekmovalec select{
+	background: #20509e;
+	color:  #fefefe;
+	font-size:2.2em;
+	margin-left:0.3em;
+	border:none;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+#naprejnazaj{
+	text-align: center;
+	margin-bottom:0.3em;
+}
+#naprejnazaj button{
+	background: #4b537f;
+	color: #f3edb5;
+	padding: 0.7em 1em;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 5px;
+	margin-left:7em;
+	margin-right:7em;
+	margin-top:0.3em;
+	font-size: 0.9em;
+}
+#naprejnazaj button:disabled{
+	display:none;
+}
+#zakljuciKT{
+	margin:1em;
+	text-align: center;	
+}
+#zakljuciKT button{
+	background: red;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 5px;
+	font-size: 1.2em;
+}
+#fotke{
+	position:absolute;
+	top:1.1em;
+}
+.fotka a{
+	padding-bottom:0.3em;
+	text-decoration:none;
+	color:#09a462;
+}
+#pricnapake{
+	border:2px;
+	padding:1em;
+	border-style: solid;
+	border-color:blue;
+	background:white;
+	margin-bottom:1em;
+	margin-top:0.2em;
+}
+.pricnapaka{
+	border:1px;
+	border-style: none none dotted none;
+	border-color:blue;
+	margin-top:0.2em;
+	padding-bottom:0.2em;
+}
+.ostnapaka{
+	border:1px;
+	border-style: none none dotted none;
+	border-color:blue;
+	margin-top:0.2em;
+	padding-bottom:0.2em;
+}
+#ostnapake{
+	font-size:0.8em;
+	border:2px;
+	padding:1em;
+	border-style: solid;
+	border-color:blue;
+	background:gray;
+	margin-bottom:1em;
+	color:#f8e739;
+}
+
+#kontrolne{
+	border-radius: 5px;
+	border:2px;
+	padding:1em;
+	border-style: solid;
+	border-color:blue;
+	background:white;
+}
+#kontrolna{
+	border-radius: 5px;
+	border:1px;
+	padding:0.1em;
+	margin-bottom:0.5em;
+	border-style: solid;
+	border-color:black;
+	background:gray;
+}
+#kontrolna_naziv{
+	color:#0d176e;
+	padding:0em;
+	margin:0px;
+	border-style: none;
+	background:gray;
+}
+#napaka{
+	color:#751b1b;
+	border:1px;
+	margin-bottom:0.2em;
+	border-style: none none dotted none;
+	border-color:#751b1b;
+}
+#napakeT{
+	color:#fd0;
+	font-size: 1.1em;
+	border:1px;
+	margin-bottom:0.2em;
+	border-style: none none none none;
+	border-color:#751b1b;
+}
+#napakeSkup{
+	font-style: oblique;
+	top:1em;
+	left:1em;
+	font-size: 1.3em;
+}
+#opozorilo{
+	position:fixed;
+	bottom:1.1em;
+	font-size: 1.2em;
+	background:#f5b800;
+	padding:0.2em;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+}
+#dev{
+	right:10px;
+	position:fixed;
+	bottom:0px;
+	font-size: 0.8em;
+	padding:0.2em;
+}
+.tockeM{
+	font-size:0.6em;
+	padding:0.2em;
+	display: inline-block;
+}
+#mesta{
+	word-wrap: break-word;
+}
+.mesto{
+	color:#17def5;
+	font-style: italic;
+	text-align: center;
+	margin-bottom:0.1em;
+	display: inline-block;
+	margin-right: 0em;
+	margin-left: 2em;
+}
+#mesto1{
+	color:#fefefe;
+	font-style: normal;
+	text-align: center;
+	margin-bottom:0.3em;
+	font-size: 1.3em;
+	
+}
+#mesto2{
+	color:#00ff4a;
+	font-style: normal;
+	text-align: center;
+	margin-bottom:0.3em;
+	font-size: 1.2em;
+}
+#mesto3{
+	color:#f8e739;
+	font-style: normal;
+	text-align: center;
+	margin-bottom:0.5em;
+	font-size: 1.1em;
+}
+#mesto4{
+	color:#f56069;
+	font-style: normal;
+	text-align: center;
+	margin-bottom:0.5em;
+	font-size: 1em;
+}
+
+[id^=prekrskiOvire-]{
+ display: none;
+ /*display: block;*/
+ background:white;
+ color:black;
+}
+
+.ovira{
+	color:#f5efb6;
+	background:#4d5583;
+	margin-bottom:0.5em;
+	padding: 0.5em;
+	border-radius: 5px;
+	border:2px;
+	border-color:blue;
+}
+.prekrsek{
+	padding: 0.1em;
+	border:1px;
+	border-style: none none dotted none;
+	border-color:blue;
+	margin-top:0.2em;
+	padding-bottom:0.2em;
+}
+.prekrsek input{
+	/*margin-right: 0.31em;*/
+	
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+    text-align: center;
+}
+
+input[type='checkbox'] {
+	margin-left:4em;
+    transform : scale(3);
+}
+#idealni{
+	border:2px;
+	padding:0.3em;
+	border-style: solid;
+	border-color:blue;
+	background:white;
+	margin-bottom:0.1em;
+	margin-top:0.1em;
+}
